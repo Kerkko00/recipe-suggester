@@ -1,0 +1,9 @@
+<h3>Ingredient selector</h3>
+<button type="submit">Search</button>
+<ul class="ingredients">
+  <li *ngFor="let ingredient of ingredients">
+    <button class="ingredient-button" type="button">
+      <p>{{ingredient.id}}: {{ingredient.name}}</p>
+    </button>
+  </li>
+</ul>
